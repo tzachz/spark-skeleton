@@ -1,5 +1,16 @@
+# Gradle
 build/
+.gradle/
+
+# IntelliJ IDEA
 out/
 .idea/
-.gradle/
 classes/
+/bin/
+
+# Eclipse
+.project
+.classes
+.settings
+.classpath
+.cache-main

@@ -7,6 +7,7 @@ buildscript {
 apply plugin: 'maven'
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 allprojects {
     repositories {
@@ -23,6 +24,9 @@ allprojects {
             downloadSources = true
         }
     }
+
+    apply plugin: 'eclipse'
+
 }
 
 task wrapper(type: Wrapper) {
