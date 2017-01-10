@@ -7,6 +7,9 @@ out/
 .idea/
 classes/
 /bin/
+*.ipr
+*.iml
+*.iws
 
 # Eclipse
 .project
